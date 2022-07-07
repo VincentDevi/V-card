@@ -1,24 +1,24 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: black;
-    color: aliceblue;
+
 }
 
 body{
     display: flex;
     flex-direction: column;
-    height: 100%;
     min-height: 100vh;
+    background-color: #14213D;
+    color: #E5E5E5;
     
 }
 
 header{
-    margin-top: 2%;
+    padding-top: 2%;
     border: solid 3px green;
     display: flex;
     justify-content: space-around;
-    flex: 1 1 auto ;
+    flex: 1 1 auto;
     
 }
 
@@ -36,14 +36,38 @@ header{
     flex: 1 1 auto;
     
 }
+.divi{
+    color: #14213D;
+    background-color: #A1B5D8;
+    flex: 4 1 auto;
+    border: solid 3px yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main1{
+    align-self: flex-end;
+    border: solid 2px black;
+    flex: 0 1 auto;
+    
+}
+.main2{
+    border: solid 2px brown;
+    flex: 0 1 auto;
+}
+.main3{
+    border: solid 2px purple;
+    align-self: flex-start;
+    flex: 0 1 auto;
+}
+img{
+    border: solid 2px #E5E5E5;
+    
+}
 
 footer{
     border: solid 3px red;
     display: flex;
     flex: 1  1 auto;
     
-}
-.divi{
-    flex: 4 1 auto;
-    border: solid 3px yellow;
 }
