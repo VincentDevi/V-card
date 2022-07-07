@@ -1,66 +1,66 @@
-*{
+body{
     margin: 0;
     padding: 0;
-}
-body{
-    font-family: 'Source Serif Pro', serif;
-    margin-right: 5%;
-    margin-left: 3%;
-    display: flex;
     height: 100vh;
-    background-image: linear-gradient(to right, #14213d, #2c4660, #4b6d83, #7097a6, #9ac2c9);
-    justify-content: flex-start;
+    background-image: url("veryOldComputer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.div1{
-    color: #E5E5E5;
-    flex: 1 1 auto;
+div{
+    background-image: linear-gradient(to right bottom, #8e8e8e, #7c7c7c, #6b6b6b, #595959, #494949);
+    height: 400px;
+    width: 750px;
+    border-radius: 5%;
+    box-shadow: 10px 5px 5px black;
+    display: flex;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+}
+aside{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.div2{
-    flex: 2 1 auto;
-    height: 500px;
-    align-self: center;
-
-}
-.div3{
-    flex: 1 1 auto;
+.info{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+p{
+    margin-left: 40px;
+}
+#github{
+    margin-left: 60px;
+}
 
+a{
+    color: #494949;
 }
-.descri{
-    
-
+a:hover{
+    color: white;
 }
-.but{
-    align-self: flex-end;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+a:visited{
+    color: black;
 }
-button{
-    background-color: #738290;
-    border-radius: 20%;
-    border: solid 2px ;
-    width: 150%;
-    height: auto;
-    margin: 10%;
-    margin-right: 50%;
-    padding: 20%;
-
+.titre{
+    font-family: 'EB Garamond', serif;
+    font-size: x-large;
 }
-button:hover{
-    background-color: #14213d;
-    color: #E5E5E5;
+h1{
+    font-family: 'EB Garamond', serif;
+    margin-left: 100px;
 }
-#photo{
-    max-width: max-content;
-    max-height: 500px;
-    height: auto;
-    width: auto;
-
+h2{
+    margin-left: 50px;
+}
+h3{
+    font-family: 'EB Garamond', serif;
+    margin-right: 50px;
 }
